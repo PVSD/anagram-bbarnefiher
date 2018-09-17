@@ -16,11 +16,16 @@ public class Main {
         if (phraseOne.length() == phraseTwo.length()){
 
             String phraseOneArray[] = new String[phraseOne.length()];
-            
-
 
             for (int i = 0; i < phraseOne.length(); i++){
                 System.out.println(i);
+                phraseOneArray[i] = phraseOne.substring(i, i + 1);
+
+            }
+            System.out.println(Arrays.toString(phraseOneArray));
+
+            for (int i = 0; i < phraseOne.length(); i++){
+                //System.out.println(i);
 
 
 
