@@ -15,6 +15,7 @@ public class Main {
 
         if (phraseOne.length() == phraseTwo.length()){
 
+            String phraseOneArray[] = new String[phraseOne.length()];
             
 
 
